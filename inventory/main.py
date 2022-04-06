@@ -11,3 +11,11 @@ app.add_middleware(
     allow_headers=['*']
 )
 
+redis = get_redis_connection(
+    host="redis-11844.c135.eu-central-1-1.ec2.cloud.redislabs.com",
+    port=11844,
+    password="pRdcpRkKPFn6UnEFskrDGxrmFbf5T9ER",
+    decode_responses=True
+)
+
+
