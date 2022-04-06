@@ -19,3 +19,17 @@ redis = get_redis_connection(
 )
 
 
+class Product(HashModel):
+    name: str
+    price: float
+    quantity: int
+
+    class Meta:
+        database = redis
+
+
+@app.get('/products')
+def all():
+    return [format(pk) for pk in Product.all_pks()]
+
+
