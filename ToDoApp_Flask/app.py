@@ -32,8 +32,10 @@ def add():
     db.session.commit()
     return redirect(url_for("home"))
 
-@app.route('/') #decorator - homepage
-def index():    # assign a method - response to request
-    return 'Hello from Sia!'
-
-app.run(port=5000)
+@app.get("/update/<int:todo_id>")
+def update(todo_id):
+    # todo = Todo.query.filter_by(id=todo_id).first()
+    todo = db.session.query(Todo).filter(Todo.id == todo_id).first()
+    todo.complete = not todo.complete
+    db.session.commit()
+    return redirect(url_for("home"))
