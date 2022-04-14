@@ -13,6 +13,10 @@ class Todo(db.Model):
     title = db.Column(db.String(100))
     complete = db.Column(db.Boolean)
 
+db.create_all()
+
+
+
 @app.route('/') #decorator - homepage
 def index():    # assign a method - response to request
     return 'Hello from Sia!'
