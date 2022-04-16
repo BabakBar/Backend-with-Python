@@ -1,11 +1,11 @@
 import os
 import sys
 from sqlalchemy import Column, ForeignKey, Integer, String
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship
+from sqlalchemy.ext.declarative import declarative_base #use in config
+from sqlalchemy.orm import relationship 
 from sqlalchemy import create_engine
 
-Base = declarative_base()
+Base = declarative_base() #helps in class which are special
 
 
 class Restaurant(Base):
@@ -29,5 +29,4 @@ class MenuItem(Base):
 
 engine = create_engine('sqlite:///restaurantmenu.db')
 
-
-Base.metadata.create_all(engine)
+Base.metadata.create_all(engine) #creates tables
