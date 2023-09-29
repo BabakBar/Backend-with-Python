@@ -1,0 +1,14 @@
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\bin\Debug\net7.0\My Awesome C#.exe
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\bin\Debug\net7.0\My Awesome C#.deps.json
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\bin\Debug\net7.0\My Awesome C#.runtimeconfig.json
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\bin\Debug\net7.0\My Awesome C#.dll
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\bin\Debug\net7.0\My Awesome C#.pdb
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\obj\Debug\net7.0\My Awesome C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\obj\Debug\net7.0\My Awesome C#.AssemblyInfoInputs.cache
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\obj\Debug\net7.0\My Awesome C#.AssemblyInfo.cs
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\obj\Debug\net7.0\My Awesome C#.csproj.CoreCompileInputs.cache
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\obj\Debug\net7.0\My Awesome C#.dll
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\obj\Debug\net7.0\refint\My Awesome C#.dll
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\obj\Debug\net7.0\My Awesome C#.pdb
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\obj\Debug\net7.0\My Awesome C#.genruntimeconfig.cache
+C:\Users\uif41276\OneDrive - Continental AG\Desktop\My Awesome C#\obj\Debug\net7.0\ref\My Awesome C#.dll
